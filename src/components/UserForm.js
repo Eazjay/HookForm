@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const UserForm = () => {
-    const [inputs, setInputs] = useState ({})
+const UserForm = (props) => {
+    const {inputs, setInputs} = props;
     const [errors, setErrors] = useState ({})
 
     const err = {}
